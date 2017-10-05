@@ -1,0 +1,71 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  background: linear-gradient(0deg, #ffd639 35% ,#f75b39 100%);
+  --b : #333;
+  --of:#de7b42;
+	--wf:#fff;
+	--yfl:#bea541;
+	--t:#4a73ad;
+	--fy:#ffd539;
+	--fr:#f75a39;
+}
+
+#infernape {
+  position: absolute;
+  top: 45%;
+  left: calc((100% - 26px)/2);
+  height: 5px;
+  width: 5px;
+  background: var(--b);
+  
+  box-shadow: 
+  /*row two*/
+  -5px 5px var(--b),0px 5px var(--fr),5px 5px var(--b),10px 5px var(--b),15px 5px var(--b),45px 5px var(--b),50px 5px var(--b),55px 5px var(--b),
+  /*row three*/
+	-25px 10px var(--b),-20px 10px var(--b),-10px 10px var(--b),-5px 10px var(--fr),0px 10px var(--fr),5px 10px var(--fr),10px 10px var(--fr),15px 10px var(--fr),20px 10px var(--b),40px 10px var(--b),45px 10px var(--fy),50px 10px var(--fy),55px 10px var(--fy),60px 10px var(--b),
+  /*row four*/
+	-40px 15px var(--b),-30px 15px var(--b),-25px 15px var(--fr),-20px 15px var(--fr),-15px 15px var(--b),-10px 15px var(--fr),-5px 15px var(--fr),0px 15px var(--fr),5px 15px var(--fr),10px 15px var(--fy),15px 15px var(--fy),20px 15px var(--fy),25px 15px var(--b),30px 15px var(--b),35px 15px var(--b),40px 15px var(--fy),45px 15px var(--fy),50px 15px var(--b),55px 15px var(--b),
+  /*row five*/
+	-45px 20px var(--b),-40px 20px var(--of),-35px 20px var(--b),-30px 20px var(--fr),-25px 20px var(--fr),-20px 20px var(--fy),-15px 20px var(--fy),-10px 20px var(--fr),-5px 20px var(--fr),0px 20px var(--fy),5px 20px var(--fy),10px 20px var(--fy),15px 20px var(--fy),20px 20px var(--fr),25px 20px var(--fr),30px 20px var(--fr),35px 20px var(--fr),40px 20px var(--fr),45px 20px var(--fr),50px 20px var(--b),
+  /*row six*/
+	-45px 25px var(--b),-40px 25px var(--of),-35px 25px var(--b),-30px 25px var(--fr),-25px 25px var(--fy),-20px 25px var(--fy),-15px 25px var(--b),-10px 25px var(--b),-5px 25px var(--fy),-0px 25px var(--fy),5px 25px var(--fy),10px 25px var(--fy),15px 25px var(--b),20px 25px var(--fr),25px 25px var(--fr),30px 25px var(--fr),35px 25px var(--fr),40px 25px var(--fr),45px 25px var(--b),
+  /*row seven*/
+	-45px 30px var(--b),-40px 30px var(--of),-35px 30px var(--wf),-30px 30px var(--b),-25px 30px var(--fy),-20px 30px var(--b),-15px 30px var(--wf),-10px 30px var(--b),-5px 30px var(--b),0px 30px var(--fy),5px 30px var(--fy),10px 30px var(--b),15px 30px var(--of),20px 30px var(--b),25px 30px var(--fr),30px 30px var(--fr),35px 30px var(--b),40px 30px var(--b),
+  /*row eight*/
+	-45px 35px var(--b),-40px 35px var(--of),-35px 35px var(--wf),-30px 35px var(--b),-25px 35px var(--b),-20px 35px var(--wf),-15px 35px var(--wf),-10px 35px var(--b),-5px 35px var(--wf),0px 35px var(--b),5px 35px var(--b),10px 35px var(--of),15px 35px var(--of),20px 35px var(--b),25px 35px var(--b),30px 35px var(--b),
+  /*row nine*/
+	-40px 40px var(--b),-35px 40px var(--wf),-30px 40px var(--wf),-25px 40px var(--wf),-20px 40px var(--wf),-15px 40px var(--wf),-10px 40px var(--wf),-5px 40px var(--wf),0px 40px var(--wf),5px 40px var(--b),10px 40px var(--of),15px 40px var(--t),20px 40px var(--b),
+  /*row ten*/
+	-45px 45px var(--b),-40px 45px var(--fr),-35px 45px var(--wf),-30px 45px var(--wf),-25px 45px var(--of),-20px 45px var(--of),-15px 45px var(--of),-10px 45px var(--wf),-5px 45px var(--wf),0px 45px var(--b),5px 45px var(--of),10px 45px var(--t),15px 45px var(--t),20px 45px var(--b),      50px 45px var(--b),55px 45px var(--b),60px 45px var(--b),65px 45px var(--b),
+  /*row eleven*/
+	-45px 50px var(--b),-40px 50px var(--fr),-35px 50px var(--wf),-30px 50px var(--of),-25px 50px var(--fr),-20px 50px var(--fr),-15px 50px var(--fr),-10px 50px var(--of),-5px 50px var(--wf),0px 50px var(--b),5px 50px var(--of),10px 50px var(--t),15px 50px var(--of),20px 50px var(--b),       45px 50px var(--b),50px 50px var(--of),55px 50px var(--of),60px 50px var(--of),65px 50px var(--of),70px 50px var(--b),
+  /*row twelve*/
+	-45px 55px var(--b),-40px 55px var(--fr),-35px 55px var(--of),-30px 55px var(--fr),-25px 55px var(--fr),-20px 55px var(--fr),-15px 55px var(--fr),-10px 55px var(--fr),-5px 55px var(--wf),0px 55px var(--wf),5px 55px var(--b),10px 55px var(--of),5px 55px var(--b),       40px 55px var(--b),45px 55px var(--of),50px 55px var(--of),55px 55px var(--of),60px 55px var(--of),65px 55px var(--of),70px 55px var(--b),
+  /*row thirteen*/
+	-50px 60px var(--b),-45px 60px var(--fy),-40px 60px var(--b),-35px 60px var(--fr),-30px 60px var(--fr),-25px 60px var(--of),-20px 60px var(--b),-15px 60px var(--fy),-10px 60px var(--fr),-5px 60px var(--wf),0px 60px var(--wf),5px 60px var(--b),10px 60px var(--b),15px 60px var(--b),      40px 60px var(--b),45px 60px var(--of),50px 60px var(--of),55px 60px var(--b),60px 60px var(--b),65px 60px var(--b),
+  /*row fourteen*/
+	-55px 65px var(--b),-50px 65px var(--yfl),-45px 65px var(--yfl),-40px 65px var(--b),-35px 65px var(--of),-30px 65px var(--of),-25px 65px var(--of),-20px 65px var(--of),-15px 65px var(--of),-10px 65px var(--wf),-5px 65px var(--wf),0px 65px var(--b),5px 65px var(--fy),10px 65px var(--yfl),15px 65px var(--fy),20px 65px var(--b),       35px 65px var(--b),40px 65px var(--of),45px 65px var(--of),50px 65px var(--b),
+  /*row fifteen*/
+	-55px 70px var(--b),-50px 70px var(--t),-45px 70px var(--t),-40px 70px var(--t),-35px 70px var(--b),-30px 70px var(--of),-25px 70px var(--of),-20px 70px var(--of),-15px 70px var(--b),-10px 70px var(--b),-5px 70px var(--b),0px 70px var(--yfl),5px 70px var(--fy),10px 70px var(--yfl),15px 70px var(--yfl),20px 70px var(--fy),25px 70px var(--b),30px 70px var(--b),35px 70px var(--of),40px 70px var(--of),45px 70px var(--b),
+  /*row sixteen*/
+	-55px 75px var(--b),-50px 75px var(--t),-45px 75px var(--b),-40px 75px var(--b),-35px 75px var(--b),-30px 75px var(--b),-25px 75px var(--b),-20px 75px var(--b),-15px 75px var(--fy),-10px 75px var(--wf),-5px 75px var(--wf),0px 75px var(--wf),5px 75px var(--b),10px 75px var(--fy),15px 75px var(--fy),20px 75px var(--fy),25px 75px var(--of),30px 75px var(--of),35px 75px var(--b),40px 75px var(--b),
+  /*row seventeen*/
+	-50px 80px var(--b),-45px 80px var(--b),     -20px 80px var(--b),-15px 80px var(--b),-10px 80px var(--wf),-5px 80px var(--fy),0px 80px var(--fy),5px 80px var(--yfl),10px 80px var(--b),15px 80px var(--b),20px 80px var(--b),25px 80px var(--of),30px 80px var(--of),35px 80px var(--b),
+  /*row eighteen*/
+	-30px 85px var(--b),-25px 85px var(--b),-20px 85px var(--wf),-15px 85px var(--wf),-10px 85px var(--yfl),-5px 85px var(--yfl),0px 85px var(--wf),5px 85px var(--wf),10px 85px var(--b),      25px 85px var(--b),30px 85px var(--of),35px 85px var(--fy),40px 85px var(--b),
+  /*row nineteen*/
+	-35px 90px var(--b),-30px 90px var(--of),-25px 90px var(--of),-20px 90px var(--of),-15px 90px var(--wf),-10px 90px var(--wf),-5px 90px var(--wf),-0px 90px var(--of),5px 90px var(--of),10px 90px var(--of),15px 90px var(--b),20px 90px var(--b),25px 90px var(--of),30px 90px var(--fy),35px 90px var(--fy),40px 90px var(--b),
+  /*row twenty*/
+	-35px 95px var(--b),-30px 95px var(--b),-25px 95px var(--wf),-20px 95px var(--wf),-15px 95px var(--b),-10px 95px var(--wf),-5px 95px var(--of),0px 95px var(--of),5px 95px var(--of),10px 95px var(--b),       30px 95px var(--b),35px 95px var(--yfl),40px 95px var(--fy),45px 95px var(--t),50px 95px var(--b),
+  /*row twenty-one*/
+	-30px 100px var(--b),-25px 100px var(--b),-20px 100px var(--b),-5px 100px var(--b),0px 100px var(--of),5px 100px var(--of),10px 100px var(--of),15px 100px var(--wf),20px 100px var(--b),      30px 100px var(--b),35px 100px var(--t),40px 100px var(--t),45px 100px var(--t),50px 100px var(--b),
+  /*row twenty-two*/
+	-5px 105px var(--b),0px 105px var(--yfl),5px 105px var(--fy),10px 105px var(--fy),15px 105px var(--t),20px 105px var(--b),     30px 105px var(--b),35px 105px var(--t),40px 105px var(--b),45px 105px var(--t),50px 105px var(--b),
+  /*row twenty-three*/
+	0px 110px var(--b),5px 110px var(--t),10px 110px var(--t),15px 110px var(--t),20px 110px var(--b),35px 110px var(--b),45px 110px var(--b),
+  /*row twenty-four*/
+	5px 115px var(--b),10px 115px var(--b),15px 115px var(--b)
+  ;
+}
